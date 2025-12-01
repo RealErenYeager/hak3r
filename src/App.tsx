@@ -388,7 +388,7 @@ const App: React.FC = () => {
                 </svg>
               </a>
               <a
-                href="https://twitter.com/yourusername" // should updated ***
+                href="https://x.com/realmudasssir" // should updated ***
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center"
