@@ -62,7 +62,7 @@ const Nav: React.FC = () => {
     >
       <Navbar.Brand href="/">
         <img 
-          src="./assets/images/hacker01-modified.png" 
+          src="./assets/images/hacker.png" 
           className={`mr-3 transition-all duration-300 ${
             isScrolled ? 'h-5 sm:h-7' : 'h-6 sm:h-9'
           }`} 
@@ -71,9 +71,21 @@ const Nav: React.FC = () => {
         <span className={`self-center whitespace-nowrap font-bold dark:text-white transition-all duration-300 ${
           isScrolled ? 'text-lg' : 'text-2xl'
         }`}>
-          RealEren
+          Portfolio
         </span>
+        <a
+  href="https://drive.google.com/file/d/1ZuSupQE3aQNdKworeWGHuCXJ-jg-kTUb/view?usp=sharing" //update this!
+  target="_blank"
+  rel="noopener noreferrer"
+  className={`ml-3 bg-green-700 hover:bg-green-800 text-white font-bold rounded-md transition-all duration-300 ${
+    isScrolled ? 'text-xl px-3 py-1.5' : 'text-xl px-4 py-2'
+  }`}
+>
+  Download Resume
+</a>
+
       </Navbar.Brand>
+
       <div className="flex md:order-2">
         <DarkThemeToggle />
         

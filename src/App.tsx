@@ -424,12 +424,12 @@ const App: React.FC = () => {
                 sure every potential weak point is identified and addressed.
               </p>
              <a
-  href="https://drive.google.com/file/d/1YHRwSBearKQoy-o8W-jR17C4nravpLjg/view?usp=sharing"
+  href="https://drive.google.com/file/d/1ZuSupQE3aQNdKworeWGHuCXJ-jg-kTUb/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
   className="mt-8 inline-flex items-center justify-center border-4 border-green-300 px-5 py-4 text-2xl font-medium text-gray-900 hover:bg-green-100 dark:border-green-700 dark:text-white dark:hover:bg-green-700"
 >
-  Download C.V.
+  Download Resume
 </a>
 
             </div>
